@@ -1,0 +1,117 @@
+
+header{
+ background: #F79361;
+ height: 30px;
+
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header a:hover {
+text-decoration: underline;
+}
+.table {
+	margin: auto;
+	width: 100%;
+  border-collapse: collapse;
+  border-left: 3px solid #F79361;
+  border-right: 3px solid #F79361;
+  border-bottom: 3px solid #F79361;
+  font-family: "Lucida Grande", sans-serif;
+ }
+.table caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.table td, .table th {
+  padding: 10px;
+}
+.table th {
+  text-align: left;
+  font-size: 18px;
+}
+.table tr:nth-child(2n) {
+  background: #fabea0;
+}
+.table td:last-of-type {
+  text-align: center;
+}
+.table a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #F79361;
+  box-shadow: 2px 2px 0 0 #a22800;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+.table a:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+.tablet {
+	margin: auto;
+	width: 500px;
+  border-collapse: collapse;
+  border-left: 3px solid #F79361;
+  border-right: 3px solid #F79361;
+  border-bottom: 3px solid #F79361;
+  font-family: "Lucida Grande", sans-serif;
+ }
+.tablet caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.tablet td {
+  padding: 10px;
+}
+.tablet tr:nth-child(2n) {
+  background: #fabea0;
+}
+.tablet td:last-of-type {
+  text-align: center;
+}
+.tablet a{
+	text-decoration: none;
+}
+#try  {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #F79361;
+  box-shadow: 2px 2px 0 0 #a22800;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+#try:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
